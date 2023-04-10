@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graffiti Art 🎨</title>
+    <style>
+        h1{
+            text-align: center;
+            color: orangered;
+            padding: 20px;
+            font-size: 30px;
+        }
+        body{
+            background-color: grey;
+        }
+        h2{
+            text-align: center;
+            color: black;
+            line-height: 1.5;
+        }
+        p{
+            text-align: center;
+            color: black;
+            font-size: 18px;
+            margin: 0 auto;
+            font-style:initial;
+        }
+        img{
+            display: block;
+            margin: 0 auto;
+            max-width: 90%;
+            border-radius: 20px;
+        }
+        .draw-more{
+            display: block;
+            margin-top: 15px;
+            text-decoration: none;
+            text-align: center;
+            font-size: 16px;
+            color: orangered;
+        }
+        .draw-more:hover{
+            text-decoration: underline;
+            cursor:cell;
+        }
+        .container{
+            max-width:400px;
+        }
+        button{
+            display: block;
+            margin: 0 auto;
+            font-style: inherit;
+            color: orangered;
+            background-color: black;
+            font-size: 14px;
+            padding: 20px 40px;
+            border: none;
+            border-radius: 18px;
+            box-shadow: 5px 5px 5px 10px rgba(131, 28, 28, 0.5);
+            transition: all 200ms;
+            cursor:cell;
+        }
+        .contact{
+        text-align: center;
+        color: black;
+    }
+          .contact-us{
+            color: orangered;
+            text-align: center;
+            text-decoration: underline;
+            text-transform: lowercase;
+            font-size: 16px;
+            display: block;
+    }
+        .footer{
+            text-align: center;
+            color:orangered;
+            font-size: 17px;
+        }
+    </style>
+</head>
+
+<body>
+    <strong>
+    <h1>Welcome to my art World!🎨</h1>
+    </strong>
+    <h2>I have been drawing graffiti all my life!🖊️</h2>
+<img src="https://graffiti-artist.net/wp-content/uploads/2019/07/brooklyn-graffiti-artist-2.jpg" alt="NYC Graffiti" width="300">
+<p>
+    Graffiti has inspired me since I was about 7 years- old. Believe it or not graffiti has changed my life through the different up and downs I have faced. I always thought graffiti was part of me because growing up from Queens, New York I will see street art literally everywhere I went no matter if I was playing around my neighborhood or just on the train or bus or just in the car. I am so thankful for graffiti because without graffiti then I am not sure where I would be.
+    <br></br>
+   Brooklyn has a deep history when it comes to famous graffiti artists. Some of the best street artists came from this borough. Today, Brooklyn is the home to some of the best graffiti art in the world. Street graffiti was prominent along the waterfront in Williamsburg when it was an industrial neighborhood. 
+<br></br>
+  If you go deeper along the J & L subway lines into Bushwick, you will find those Brooklyn neighborhoods still have a lot of culture and street art. The areas now look more like what Williamsburg did in the past before all the condos and new construction appeared. As a result, the Brooklyn graffiti artists ended up moving all over NYC to spread their styles.
+</br>
+<br></br>
+  Our Brooklyn mural artists do more than just install permanent murals. We also specialize in creating temporary artwork for events and hosting street art workshops as well. The team building events are hosted by professional Brooklyn graffiti artists. Our mural company is a one stop shop and we even offer fabrication services for activations 
+</p>
+
+<a href="https://graffiti-artist.net/outdoor-murals/brooklyn-graffiti-artist/" target="_blank" class="draw-more">
+     Check out this website for more information!📌</a>
+    <br>
+     <button>Check out this cool art!</button>
+     <br>
+     <p class="footer">
+    Created by
+     <a href="https://github.com/taylorfortune" target="_blank">
+        Taylor Fortune 💻
+     </a>
+     </p>
+      <div class="contact">
+    <span class="contact-us">Email:</span>taylorfortune@graffitiartnyc.com <span class="contact-us">Instagram</span>
+    @graffitiartnyc </div>
+      <script>
+      function art() {
+        let wall = prompt("Have you ever seen graffiti art before?");
+        let spray = prompt("Was there people or words in the art?");
+        
+     if (spray === "People" || spray === "Words"){
+      alert("Wow, that art piece is really cool!");
+     }
+     else {
+      ("I like it, but it needs more details.");
+     }
+    }
+      let changeWall = document.querySelector("button");
+      changeWall.addEventListener("click", art);
+    </script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+h1{
+    text-align: center;
+    color: orangered;
+    padding: 20px;
+    font-size: 30px;
+}
+body{
+    background-color: grey;
+}
+h2{
+    text-align: center;
+    color: black;
+    line-height: 1.5;
+}
+p{
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    margin: 0 auto;
+    font-style:initial;
+}
+img{
+    display: block;
+    margin: 0 auto;
+    max-width: 90%;
+    border-radius: 20px;
+}
+.draw-more{
+    display: block;
+    margin-top: 15px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    color: orangered;
+}
+.draw-more:hover{
+    text-decoration: underline;
+    cursor:cell;
+}
+.container{
+    max-width:400px;
+}
+button{
+    display: block;
+    margin: 0 auto;
+    font-style: inherit;
+    color: orangered;
+    background-color: black;
+    font-size: 14px;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 18px;
+    box-shadow: 5px 5px 5px 10px rgba(131, 28, 28, 0.5);
+    transition: all 200ms;
+    cursor:cell;
+}
+.contact{
+text-align: center;
+color: black;
+}
+  .contact-us{
+    color: orangered;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: lowercase;
+    font-size: 16px;
+    display: block;
+}
+.footer{
+    text-align: center;
+    color:orangered;
+    font-size: 17px;
+}
